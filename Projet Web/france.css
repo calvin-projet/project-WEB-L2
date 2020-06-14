@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+}
+
+h1{
+	font-family: 'Crete Round', serif;
+	font-size: 45px;
+	color: #444;
+}
+
+h2{
+	color: #444;
+	font-size: 55px;
+}
+h3{
+	font-size: 30px;
+	color: #444;
+}
+
+h4{
+	font-family: 'Crete Round', serif;
+	font-size: 24px;
+	color: #444;
+}
+
+p{
+	line-height: 20px;
+	color: #777;
+}
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #444;
+}
+.wrapper{
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.orange{
+	color: #ff7a00;
+}
+
+.clear{
+	clear: both;
+}
+small{
+	font-size: 13px;
+	font-style: italic;
+}
+/*Header*/
+
+ header{
+ 	height: 120px;
+ 	border-bottom: 2px solid #ddd;
+ }
+
+ header h1{
+ 	float:  left;
+ 	margin-top: 32px;
+ }
+
+ header nav{
+ 	float: right;
+ 	margin-top: 50px;
+ }
+
+ header nav ul li{
+ 	float: left;
+ 	display: inline-block;
+ }
+ header nav ul li a{
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ 	margin-right: 20px;
+ }
+
+ #currentpage{
+	border-bottom: 2px solid;
+ 	border-bottom-color: #ff7a00;
+}
+
+ header nav ul li a:hover{
+ 	color: #ff7a00;
+ }
+
+
+
+/*body*/
+article{
+	padding: 50px 50px 0 50px;
+	border-bottom: 2px solid #ff7a00;
+}
+
+article .text{
+	float: left;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+article img{
+	float: right;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+
+.photo{
+	border-radius: 15px;
+}
+
+/* Footer*/
+
+footer
+ {
+ 	height: 360px;
+ 	background-color: #444;
+ }
+
+ footer h1{
+ 	color: #fff;
+	text-align: center;
+	padding-top: 20px; 
+ }
+
+ .reseaux
+{
+	width: 40px;
+	height: 40px;
+	position: relative;
+}
+
+#wrap-reseaux
+{
+	padding-top: 50px;
+	margin-left: 350px;
+	margin-right: 350px;
+
+	width: auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+#propos{
+	height: 100px;
+}
+#propos p{
+	color: white;
+	padding: 10px;
+	font-family: 'Crete Round', serif;
+	border-bottom: 1px solid #777;
+}
+#propos a{
+	color: white;
+	font-family: 'Crete Round', serif;
+	padding: 20px;
+}
+
+
+ .copyright{
+ 	text-align: center;
+ 	font-weight: bold;
+ 	padding-top: 30px;
+ 	color: #777;
+ }

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="research.css">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Crete+Round">
+	<link rel="icon" href="image/petite-icon.ico"/>
+	<title>Trip Together</title>
+</head>
+<body>
+	<header>
+		<div class="wrapper">
+			<h1 onclick="location.href='index.html';" style="cursor: pointer;">Trip Together<span class="orange">.</span></h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="research.html" id="currentpage">Recherche</a></li>
+					<li><a href="discovery.html">Découverte</a></li>
+					<li><a href="inscription.html">Inscription</a></li>
+					<li><a href="connexion.html">Connexion</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+
+	<div class="formulaire">
+		<table>
+			<tr>
+				<td>
+					<select class="box" onchange="changeCountry(this)" name="pays" id="pays" required="">
+					<option value="Aucun pays">--Choisir Pays--</option>
+					<option value="france">France</option>
+					<option value="espagne">Espagne</option>
+					<option value="maroc">Maroc</option>
+					<option value="angleterre">Angleterre</option>
+					<option value="italie">Italie</option>
+					<option value="portugal">Portugal</option>
+					</select>
+				</td>
+				<td>
+					<select class="box" onchange="changePrice(this)" name="price" id="prix" required="">
+					<option value="Aucun prix">--Choisir Prix--</option>
+					<option value=25> <25€/nuit </option>
+					<option value=50> <50€/nuit </option>
+					<option value=75> <75€/nuit </option>
+					<option value=100> <100€/nuit </option>
+					<option value=150> <150€/nuit </option>
+					<option value=1000> Tout tarifs </option>
+					</select>
+				</td>
+				<td>
+					<select class="box" onchange="changeType(this)" name="type" id="type" required="">
+					<option value="Aucun type">--Choisir type de logement--</option>
+					<option value="hôtel">Hôtel</option>
+					<option value="appartement">Appartement</option>
+					<option value="airbnb">AirBNB</option>
+					</select>
+				</td>
+				<td>
+					<button onclick="search()">Valider vos critères</button>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+
+	<table>
+		<thead>
+				<h1 style="text-align: center;">Résultat de recherche</h1>
+
+				<tr>
+					<td>Pays</td>
+					<td>Ville</td>
+					<td>Prix</td>
+					<td>Type de logement</td>
+				</tr>
+		</thead>
+		<tbody id="result_search">
+			
+		</tbody>
+	</table>
+
+
+
+	<footer>
+		<div class="wrapper">
+
+			<div id = "wrap-reseaux">
+
+			<div > <img src = "image/facebook.png" class = "reseaux"> </div>
+			<div > <img src = "image/Twitter.png" class = "reseaux"> </div>
+			<div > <img src = "image/Instagram.png" class = "reseaux" > </div>
+			<div > <img src = "image/Linkedin.png" class = "reseaux"> </div>
+			</div>
+
+
+			<h1>Trip Together<span class="orange">.</span></h1>
+
+			<div id="propos">
+				<p>A propos de Trip Together :</p>
+				<br><a href="contact.html">- Nous contacter</a><br>
+				<br><a href="equipe.html">- Qui sommes-nous ?</a><br>
+			</div>
+
+			<div class="copyright">Copyright 2020. Tous droits réservés.</div>
+		</div>
+	</footer>
+	<script src="critere.js"></script>
+</body>
+</html>

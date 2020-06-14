@@ -1,0 +1,229 @@
+{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.meet
+{
+	border : 2px solid black;
+	border-radius: 50px;
+}
+
+header{
+ height: 120px;
+ font-family: 'Crete Round', sans-serif;
+ margin: 0;
+ border-bottom: 1px solid grey;
+border-bottom-color: rgba(171,162,162, 0.85);
+}
+header p{
+ float:  left;
+ margin-top: 32px;
+ margin-left: 40px;
+}
+
+header nav{
+ float: right;
+ margin-top: 50px;
+ display: flex;
+}
+
+header nav ul li{
+ float: left;
+ display: inline-block;
+}
+header nav ul li a{
+ text-transform: uppercase;
+ font-weight: bold;
+ margin-right: 20px;
+}
+
+#page-actuelle{
+ font-family: 'Crete Round', sans-serif;
+ border-bottom: 1px solid;
+ border-bottom-color: orange
+}
+
+/* section */
+
+.formulaire{
+	box-shadow: 2px 2px 2px orange;
+	background-color: white;	
+	margin: 10px;
+	width: 500px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+	margin-bottom: 40px;
+}
+#noborder{
+	box-shadow: none;
+}
+.center{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+h1{
+	box-shadow: 2px 2px 2px orange;
+	font-family: 'Crete Round', sans-serif;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	padding: 15px;
+	font-size: 40px;
+	border-radius: 10px;
+
+}
+
+label{
+	font-family: 'Crete Round', sans-serif;
+}
+
+.button1{
+	font-family: 'Crete Round', sans-serif;
+	background: orange;
+	border-radius: 20px;
+	border-style: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 30px;
+	font-size: 20px;
+	padding: 0px 10px;
+	color: white;
+	font-transform: uppercase;
+
+}
+
+.button1:hover{
+	color: orange;
+	background: black;
+}
+
+.button2{
+	border: none;
+	height: 30px;
+	font-size: 20px;
+	color: orange;
+	background: white;
+}
+
+.button2:hover{
+	color: black;
+}
+
+
+input:focus:invalid, textarea:focus:invalid{
+	border-color: #FF0000;
+	background-image: none;
+}
+
+input:focus:valid, textarea:focus:valid{
+	border-color: #56C93F;
+	background-image: none;
+}
+
+td input{
+	size: 50px;
+	height:25px;
+	width: 250px;
+	border-radius: 5px;
+	padding-left: 10px;
+
+}
+
+section div{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#error{
+	font-family: 'Crete Round', sans-serif;
+	text-align: center;
+}
+
+/* Bas de page */
+
+footer
+{
+	position: absolute;
+	bottom: none;
+	left: none;
+	right: none;
+	width: 100%;
+	margin: 0;
+
+	background-color:  black;
+
+
+}
+
+.reseaux
+{
+	width: 40px;
+	height: 40px;
+	position: relative;
+}
+
+#BasDePage
+{
+	margin-left: 350px;
+	margin-right: 350px;
+
+	width: auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.apropos
+{
+	font-family: 'Crete Round';
+	font-size: 18px;
+	color: white;
+	text-align: left;
+	margin-left: 250px;
+}
+
+.BasTitre
+{
+	font-family: 'Crete Round';
+	font-size: 23px;
+	color: white;
+	text-align: left;
+	margin-left: 250px;
+  margin-right: 250px;
+
+	border-bottom: 2px solid white;
+}
+
+.iconbas
+{
+  text-align: center;
+}
+
+.meet
+{
+  border: 2px solid white;
+  border-radius: 40px;
+}
+
+.Marque
+{
+	font-family: 'Crete Round';
+	font-size: 14px;
+	color: white;
+  text-align: center;
+}

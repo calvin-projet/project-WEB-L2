@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="inscription.css" />
+	<link rel="stylesheet" href="index.css" />
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Crete+Round">
+	<link rel="icon" href="image/petite-icon.ico"/>
+	<title>Trip Together</title>
+</head>
+
+<body>
+	<header>
+		<div class="wrapper">
+			<h1 onclick="location.href='index.html';" style="cursor: pointer;">Trip Together<span class="orange">.</span></h1>
+			<nav>
+				<ul>
+					<li><a href="index.html" >Accueil</a></li>
+					<li><a href="research.html">Recherche</a></li>
+					<li><a href="discovery.html">Découverte</a></li>
+					<li><a href="inscription.html" >Inscription</a></li>
+					<li><a href="connexion.html" id="currentpage">Connexion</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section>
+		<h1 align="center">Connexion</h1>
+		<form method="POST" action="" class="formulaire">
+			<table class="flex">
+					<tr>
+						<td align="right">
+							<br>
+							<label for="mail">Adresse mail:</label>
+						</td>
+						<td>
+							<br>
+							<input type="email" placeholder="Votre adresse email" id="email" name="emailconnect" required/>
+						</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<br>
+							<label for="mdp">Mot de passe:</label>
+						</td>
+						<td>
+							<br>
+							<input type="password" placeholder="Votre mot de passe" name="mdpconnect" id="mdp" name="mdp" required/>
+						</td>
+					</tr>
+			</table>
+			<br><br>
+			
+			<br>
+			<a class="button1" class="center" href="index.html"> Connexion </a>
+			<br>
+		</form>
+		<div class="Pasdecompte"  id="noborder">
+			<h3 align="center">Pas de compte ?</h3><br>
+			<a href="inscription.html" style="text-decoration:none"><input type="submit" class="button2" value="Créer un compte"></a>
+		</div>
+	</section>
+
+	  <footer>
+		<div class="wrapper">
+
+			<div id = "wrap-reseaux">
+
+			<div > <img src = "image/facebook.png" class = "reseaux"> </div>
+			<div > <img src = "image/Twitter.png" class = "reseaux"> </div>
+			<div > <img src = "image/Instagram.png" class = "reseaux" > </div>
+			<div > <img src = "image/Linkedin.png" class = "reseaux"> </div>
+			</div>
+
+
+			<h1>Trip Together<span class="orange">.</span></h1>
+
+			<div id="propos">
+				<p>A propos de Trip Together :</p>
+				<br><a href="contact.html">- Nous contacter</a><br>
+				<br><a href="equipe.html">- Qui sommes-nous ?</a><br>
+			</div>
+
+			<div class="copyright">Copyright 2020. Tous droits réservés.</div>
+		</div>
+	</footer>
+
+
+</body>
+</html>
